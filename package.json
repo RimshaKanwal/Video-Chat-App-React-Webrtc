@@ -1,0 +1,31 @@
+{
+	"name": "video-chat-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server",
+		"server": "nodemon server",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RimshaKanwal/Video-Chat-App-React-Webrtc.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RimshaKanwal/Video-Chat-App-React-Webrtc/issues"
+	},
+	"homepage": "https://github.com/RimshaKanwal/Video-Chat-App-React-Webrtc#readme",
+	"dependencies": {
+		"@material-ui/core": "^4.11.0",
+		"concurrently": "^5.2.0",
+		"express": "^4.17.1",
+		"material-ui": "^0.20.2",
+		"socket.io": "^2.3.0",
+		"styled-components": "^5.1.1"
+	}
+}
